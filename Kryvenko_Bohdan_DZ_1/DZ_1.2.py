@@ -28,7 +28,7 @@ for i in range(len(my_list)):
         num_sum += j % 10
         j =j // 10
     if num_sum % 7 == 0:
-        sum2 += my_list[i]
+        sum2 += my_list[i] + 17
 
 print(sum1)
 print(sum2)
